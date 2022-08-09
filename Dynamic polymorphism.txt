@@ -1,0 +1,22 @@
+#include  <iostream>
+using namespace std;
+class Person {
+    public:
+    void speak(){
+        cout<<"Person is speaking";
+    }
+};
+    class Dog {
+        public:
+        void speak(){
+            cout<<"Dog is barking" ;
+        }
+    };
+
+
+
+int main () {
+    Dog obj ;
+    obj.speak() ;
+    
+}
